@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="function.js"></script>
+</head>
+<body>
+    <center>
+        <h1>Recipe Finder</h1>
+    </center>
+    <p><b>Enter ingredients separated by commas (e.g., tomato, lettuce, cucumber):</b></p>
+    <input type="text" id="ingredients">
+    <button onclick="findRecipes()">Find Recipes </button>
+    
+    <h2>Suggestions:</h2>
+    <ul id="results"> </ul>
+    <div id="recipe-modal" class="modal">  
+    </div>
+</body>
+</html>

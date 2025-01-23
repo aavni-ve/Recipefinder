@@ -1,0 +1,112 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image:url(34886433_8239833.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+p{
+    font-size: 23px;
+    text-shadow: #efefef; 
+}
+
+h1{
+    font-size: 60px;
+    color: #171717;
+    
+}
+h2 {
+    color: #171717;
+    font-size: 30px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 5px #101010;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 19px;
+    background-color:rgba(0, 0, 0, 0.3);
+    
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(174, 206, 218);
+    color: rgb(29, 28, 28);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #79bdd3;
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color:rgb(255, 201, 201);
+    border: 1.5px solid #312e2e;
+    border-radius: 4px;
+    font-size: 17px;
+    font-style: normal;
+    text-decoration: solid black;
+    text-align: center;
+    width: 400px;
+    grid-row: 5, 1fr;   
+    cursor: pointer;   
+}
+
+
+.popup {
+    color: black;
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #131212;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    overflow: hidden;
+    z-index: 1000;
+    scroll-padding: yes;
+}
+
+.popup-content {
+    
+    background-image: url(recipe_img.webp);
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image is not stretched */
+    background-position: center; /* Centers the image */
+
+}
+
+.close-btn {
+
+    background-color: black;
+    color: rgb(238, 234, 234);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    background-color: #e8ecf3;
+    color: black;
+    border: 1.5px solid #131212;
+}
